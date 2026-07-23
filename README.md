@@ -9,14 +9,14 @@ patterns using absorbing Markov chains and Monte Carlo simulation.
 
 - Constructs prefix-based Markov states automatically
 - Builds the absorbing transition matrix
-- Solves \((I-Q)E=\mathbf{1}\) for exact expected waiting times
+- Solves $(I-Q)E=\mathbf{1}$ for exact expected waiting times
 - Validates exact results through Monte Carlo simulation
 - Visualises convergence and 95% confidence intervals
 
 ### 2. Penney's Game
 
 - Models two competing coin-toss patterns
-- Solves \((I-Q)p=r\) for exact absorption probabilities
+- Solves $(I-Q)p=r$ for exact absorption probabilities
 - Compares exact probabilities with Monte Carlo estimates
 - Produces a pairwise probability matrix for all length-three patterns
 
@@ -46,8 +46,8 @@ For the pattern `HTTH`, the exact expected waiting time is 18.
 
 For `HTH` competing against `HHT`,
 
-\[
+$$
 P(\text{HTH appears first})=\frac{1}{3}.
-\]
+$$
 
 Both exact results are validated through Monte Carlo simulation.
