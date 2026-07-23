@@ -46,8 +46,7 @@ For the pattern `HTTH`, the exact expected waiting time is 18.
 
 For `HTH` competing against `HHT`,
 
-$$
-P(\text{HTH appears first})=\frac{1}{3}.
-$$
+For `HTH` competing against `HHT`, the exact probability that `HTH`
+appears first is **1/3**.
 
 Both exact results are validated through Monte Carlo simulation.
